@@ -8,10 +8,10 @@ for ( c = 0; c < C; c++) {
     for ( f = 0; f < F; f++) {  
         myFound[f].appliedCharacterStyle = myDoc.characterStyles[0];  
          
-            if ( myFound[f].appliedParagraphStyle = 'Text Roman' ){
+            if ( myFound[f].appliedParagraphStyle == 'Text Roman' ){
                 myFound[f].appliedCharacterStyle = 'Italic';
             }   
-            if ( myFound[f].appliedParagraphStyle = 'Text Italic' ){
+            if ( myFound[f].appliedParagraphStyle == 'Text Italic' ){
                 myFound[f].appliedCharacterStyle = 'Roman';
             }  
 
